@@ -1,2 +1,2 @@
 #!/bin/bash
-Srxn=$(whoami) home_dir="/home/$Srxn" cd "$home_dir"cd || exit
+Srxn=$(whoami) home_dir="/home/$Srxn" cd "$home_dir" if [ $? -ne 0 ]; then exit 1 fi
