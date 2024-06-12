@@ -1,4 +1,2 @@
 #!/bin/bash
-Srxn=$(whoami)
-home_dir="/home/$Srxn"
-cd "$home_dir"
+Srxn=$(whoami) home_dir="/home/$Srxn"i cd "$home_dir"
